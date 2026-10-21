@@ -31,7 +31,7 @@ const Portfolio = () => {
 			<div className="portfolio__container grid">
 				{items.map(({ id, image, title, category, description, stack, url, repositoryUrl }) => (
 					<article className="portfolio__card" key={id}>
-						<img src={image} alt={`Aperçu du projet ${title}`} className="portfolio__img" width="400" height="267" loading="lazy" />
+						<img src={image} alt={`Aperçu du projet ${title}`} className="portfolio__img" width="960" height="450" loading="lazy" />
 						<div className="portfolio__body">
 							<span className="portfolio__category">{category.join(" · ")}</span>
 							<h3 className="portfolio__title">{title}</h3>

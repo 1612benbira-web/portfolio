@@ -1,8 +1,8 @@
 // Toutes les informations personnelles sont ici : modifier ce fichier suffit
 // pour mettre à jour le site.
-import pharmaloc from "../assets/project-pharmaloc.svg";
-import livre from "../assets/project-livre.svg";
-import edtech from "../assets/project-edtech.svg";
+import pharmaloc from "../assets/project-pharmaloc.webp";
+import livre from "../assets/project-livre.webp";
+import edtech from "../assets/project-edtech.webp";
 
 export const profile = {
   name: "Ben Birama Bop",
@@ -11,6 +11,7 @@ export const profile = {
   location: "Dakar, Sénégal",
   email: "1612benbira@gmail.com",
   github: "https://github.com/1612benbira-web",
+  linkedin: "https://www.linkedin.com/in/ben-birama-bop-9b470a356/",
   siteUrl: "", // à renseigner une fois le portfolio déployé
 };
 
@@ -106,7 +107,6 @@ export const experiences = [
   },
 ];
 
-// repositoryUrl : remplacer par le lien exact de chaque dépôt GitHub.
 export const projects = [
   {
     id: 1,
@@ -117,7 +117,7 @@ export const projects = [
       "Commande de médicaments en pharmacie : stocks, paiement simulé et livraison avec code de remise. Rôles patient, pharmacie, livreur et administrateur. Plus de 300 tests Vitest.",
     stack: "React, Vite · Node.js, Express · MongoDB",
     url: "https://pharmaloc-ashy.vercel.app",
-    repositoryUrl: profile.github,
+    repositoryUrl: "https://github.com/1612benbira-web/pharmaloc",
   },
   {
     id: 2,
@@ -128,7 +128,7 @@ export const projects = [
       "Application pour livre jeune public : accès par QR code, question du jour corrigée côté serveur, progression du lecteur et espace administrateur.",
     stack: "React, Tailwind · Express, JWT · MongoDB Atlas",
     url: "https://livre-compagnon.vercel.app",
-    repositoryUrl: profile.github,
+    repositoryUrl: "https://github.com/1612benbira-web/livre-compagnon",
   },
   {
     id: 3,
@@ -139,6 +139,6 @@ export const projects = [
       "Plateforme éducative multi-écoles selon le programme sénégalais : rôles élève, enseignant et administrateur, quiz quotidien et suivi de progression.",
     stack: "Next.js, TypeScript, Tailwind · Supabase, PostgreSQL",
     url: "https://edtech-senegal.vercel.app",
-    repositoryUrl: profile.github,
+    repositoryUrl: "https://github.com/1612benbira-web/edtech-senegal",
   },
 ];
