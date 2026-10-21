@@ -1,0 +1,121 @@
+.portfolio__filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.portfolio__item {
+  cursor: pointer;
+  font-weight: var(--font-bold);
+  transition: 0.3s;
+  background: none;
+  color: var(--text-color);
+}
+
+.portfolio__item-active,
+.portfolio__item:hover {
+  color: var(--first-color);
+}
+
+.portfolio__item:focus-visible,
+.portfolio__link:focus-visible {
+  outline: 2px solid var(--first-color);
+  outline-offset: 3px;
+}
+
+.portfolio__container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+  align-items: stretch;
+}
+
+.portfolio__card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  background-color: var(--container-color);
+}
+
+.portfolio__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.portfolio__category {
+  align-self: flex-start;
+  color: #fff;
+  background-color: var(--first-color);
+  border-radius: 1rem;
+  font-size: var(--smaller-font-size);
+  padding: 0.1rem 0.7rem;
+  margin-bottom: 0.75rem;
+}
+
+.portfolio__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.portfolio__description {
+  font-size: var(--small-font-size);
+  margin-bottom: 0.75rem;
+}
+
+.portfolio__stack {
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.portfolio__links {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: auto;
+}
+
+.portfolio__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: var(--font-bold);
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+}
+
+.portfolio__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__filters {
+    justify-content: center;
+  }
+
+  .portfolio__container {
+    grid-template-columns: repeat(2, minmax(0, 330px));
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    grid-template-columns: minmax(0, 340px);
+  }
+
+  .portfolio__filters {
+    row-gap: 0.25rem;
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 267" width="400" height="267" role="img" aria-label="Aperçu PharmaLoc">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17806a"/><stop offset="1" stop-color="#0c4a3d"/></linearGradient></defs>
+<rect width="400" height="267" fill="url(#g)"/>
+<rect x="30" y="28" width="340" height="211" rx="14" fill="#000" opacity=".18"/>
+<circle cx="52" cy="50" r="5" fill="#fff" opacity=".8"/><circle cx="68" cy="50" r="5" fill="#fff" opacity=".6"/><circle cx="84" cy="50" r="5" fill="#fff" opacity=".4"/>
+<text x="60" y="108" font-family="Noto Sans, Arial, sans-serif" font-weight="800" font-size="30" fill="#fff">PharmaLoc</text>
+<text x="60" y="132" font-family="Noto Sans, Arial, sans-serif" font-size="14" fill="#fff" opacity=".85">Médicaments · pharmacies · livraison</text>
+<rect x="60" y="150" width="260" height="14" rx="7" fill="#fff" opacity="0.9"/><rect x="60" y="188" width="200" height="14" rx="7" fill="#fff" opacity="0.6"/><rect x="60" y="226" width="150" height="14" rx="7" fill="#fff" opacity="0.4"/></svg>
